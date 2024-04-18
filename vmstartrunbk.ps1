@@ -1,5 +1,5 @@
 Connect-AzAccount -Identity
 
-Set-AzContext -Subscription "431e72bd-b50e-4d83-b4c7-b2848f72f2fe"
+Set-AzContext -Subscription "[your Azure subscription id]"
 
 Start-AzVM -ResourceGroupName "automatevmstartstop" -Name "automationtutvm"
